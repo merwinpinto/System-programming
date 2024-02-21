@@ -1,0 +1,2 @@
+MN	 	PP	KP	MDT	KPDT
+MAC1	0	3	1	1

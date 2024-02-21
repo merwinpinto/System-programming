@@ -1,0 +1,22 @@
+        START 200
+	    ADD  BREG , k
+		ADD  BREG , x
+LOOP1:  MUL  AREG , BREG
+	    MOV BREG , y
+        ADD AREG , BREG
+	    JUMP LOOP1
+k 		DC   10		
+x       DC   5
+y       DS   20
+		MOV CREG , AREG
+LOOP2:  MUL  BREG , CREG
+        ADD AREG , s1
+	    JUMP L1 
+L1:     JUMP L2 
+L2:     BREG , z
+z       DC   65
+		ORG  200
+s1      DC   20
+JP2: CREG , s2
+s2      DC   50
+	    END

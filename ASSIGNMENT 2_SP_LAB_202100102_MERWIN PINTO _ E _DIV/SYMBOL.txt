@@ -1,0 +1,7 @@
+Symbol Table 
+A	402 
+B	405 
+NEXT	409 
+S1	414 
+S3	419 
+C	425 

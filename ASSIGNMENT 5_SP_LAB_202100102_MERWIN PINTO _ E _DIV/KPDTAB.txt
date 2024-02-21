@@ -1,0 +1,3 @@
+VAL2	-
+VAL3	-
+REG	AREG
